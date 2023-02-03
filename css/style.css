@@ -9,7 +9,7 @@ body{
 }
 #header{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)), url(../imgs/banner1.jpg) center;
     background-size: cover;
     background-attachment: fixed;
@@ -60,4 +60,77 @@ body{
     margin-left: 30px;
     border-radius: 5px;
 
+}
+#bnr-body{
+    text-align: center;
+    justify-content: center;
+    top: 30%;
+    position: absolute;
+    left: 16%;
+    color: #ffffff;
+}
+#bnr-body .camera .icon{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+#bnr-body .text{
+    padding-top: 50px;
+}
+#bnr-body .text h2{
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+#bnr-body input{
+    width: 40%;
+    height: 50px;
+    padding-left: 20px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 22px;
+}
+.batton{
+    padding: 10px 30px;
+    background-color: #e74c3c;
+    margin-right: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #ffffff;
+
+}
+.gallery-part{
+    padding-top: 100px;
+}
+.gallery{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.5 ease;
+    
+}
+.gallery ul li:hover{
+    color: #ffffff;
+    background-color: #e74c3c;
+    border-radius: 8px;
+}
+li.active{
+    color: #ffffff;
+    background-color: #e74c3c;
+    border-radius: 8px;
+
+}
+.protfolo{
+    width: 100%;
+}
+.protfolo .items{
+    width: 360px;
 }
